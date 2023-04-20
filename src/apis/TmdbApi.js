@@ -7,7 +7,7 @@ const instance = axios.create({
 instance.interceptors.request.use(
 	function (config) {
 		try {
-			config.params["api_key"] = "7a85acd49fedf1a0dc08bcb3d47943ce";
+			config.params["api_key"] = "<YOUR_API_KEY>";
 			return config;
 		} catch (e) {}
 	},
