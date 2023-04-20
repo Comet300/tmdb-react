@@ -1,6 +1,6 @@
 # Browsing the TMDB Api using React and Redux Toolkit
 
-In order to run the application you need to run
+In order to intall the application dependencies you need to run
 
 ```
 npm install
