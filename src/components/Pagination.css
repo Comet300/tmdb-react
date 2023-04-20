@@ -1,0 +1,13 @@
+.paginationBar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.paginationBar button {
+	cursor: pointer;
+	border: none;
+	background: none;
+	margin-left: 5px;
+}

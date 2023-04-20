@@ -1,0 +1,36 @@
+.sbContainer {
+	padding: 3px 10px;
+	border: 1px solid black;
+	border-radius: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.sbContainer > input {
+	outline: none;
+	padding: 10px;
+	border: none;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.sbContainer > .material-symbols-outlined {
+	font-weight: 700;
+}
+
+.sbContainer button {
+	background: none;
+	color: black;
+	border: none;
+	cursor: pointer;
+	border-radius: 100px;
+	height: 40px;
+	width: 40px;
+}
+
+.sbContainer button:hover {
+	background: #00000022;
+}

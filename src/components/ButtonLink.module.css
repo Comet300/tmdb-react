@@ -1,0 +1,13 @@
+.link {
+	padding: 15px 25px;
+	border-radius: 25px;
+	text-decoration: none;
+	background-color: #e7e7e7;
+	color: black;
+	display: inline-block;
+	margin: 10px 0 0 0;
+}
+
+.link:not(:last-child) {
+	margin-right: 10px;
+}

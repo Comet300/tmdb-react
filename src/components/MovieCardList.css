@@ -1,0 +1,42 @@
+.movieGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 2050px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 1750px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.movieGrid {
+		grid-template-columns: 1fr 1fr;
+	}
+}
