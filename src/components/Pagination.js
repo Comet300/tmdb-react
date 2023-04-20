@@ -7,10 +7,10 @@ export default function Pagination(props) {
 			<p>
 				Page {props.currentPage} of {props.totalPages}
 			</p>
-			<button>
+			<button onClick={props.onPrievousPage}>
 				<span className='material-symbols-outlined'>chevron_left</span>
 			</button>
-			<button>
+			<button onClick={props.onNextPage}>
 				<span className='material-symbols-outlined'>chevron_right</span>
 			</button>
 		</div>

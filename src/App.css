@@ -3,6 +3,11 @@
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
 .content {
 	display: flex;
 	flex-direction: column;

@@ -40,3 +40,16 @@
 		grid-template-columns: 1fr 1fr;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.movieGrid {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}
+
+.hideAbsolute {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+}
